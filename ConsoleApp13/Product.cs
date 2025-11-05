@@ -12,11 +12,13 @@ namespace ConsoleApp13
         [Key]
         public int Id { get; set; }
 
-        public string Names { get; set; }
+        public string Name { get; set; }
 
         public string Price { get; set; }
 
         public string Description { get; set; }
+
+        public DateTime Cretaedate { get; set; }
 
 
     }
